@@ -180,14 +180,14 @@ public class Hospital {
     }
 
     public boolean validarNumeroPaciente (String numeroPaciente){
-        return this.validador.existeNumeroPaiente(listaPacientes,numeroPaciente);
+        return this.validador.existeNumeroPaiente(listaPacientes.numeroPaciente);
     }
 
     public boolean validarNumeroMedico (String numeroMedico){
-        return this.validador.existeNumeroPaiente(listaMedicos,numeroMedico);
+        return this.validador.existeNumeroPaiente(listaMedicos.numeroMedico);
     }
 
     public boolean validarRfc (String RfcMedico){
-        return this.validador.existeNumeroPaiente(listaMedicos,RfcMedico);
+        return this.validador.existeNumeroPaiente(listaMedicos.RfcMedico);
     }
 }
