@@ -1,1 +1,1 @@
-Atributos y validadores de email 
+Atributos y validadores de email.
